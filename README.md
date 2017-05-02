@@ -1,6 +1,6 @@
-#json-mapper-object
+# json-mapper-object
 
-##介绍(Introduction)
+## 介绍(Introduction)
 声明: 基于朋友的json-typescript-mapper库改动而来，因朋友的这个数据转换库是基于typescript编写（下面简称ts），里面部分逻辑依据ts编译
 的JS来写的，在使用过程中有诸多不便，所以稍微改动了一些地方。
 
@@ -15,7 +15,7 @@ npm install json-typescript-object --save
 or
 yarn add json-typescript-object
 
-###Example
+### Example
 import {MapperEntity,JsonProperty} from 'json-mapper-object';
 
 class Student {
