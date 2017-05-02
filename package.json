@@ -39,6 +39,8 @@
   },
   "keywords": [
     "json-mapper",
+    "jsonMapper",
+    "mapper-json",
     "typescript-json",
     "json-adapter",
     "json-transformer",
