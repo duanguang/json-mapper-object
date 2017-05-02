@@ -18,6 +18,7 @@ yarn add json-typescript-object
 ### Example
 import {MapperEntity,JsonProperty} from 'json-mapper-object';
 
+```bash
 class Student {
     @JsonProperty('name')
     fullName=void 0;
@@ -59,9 +60,9 @@ class Person {
     constructor() {
     }
 }
-
+```
 现在这里是API服务器返回的数据，假设它已经被解析为JSON对象。
-
+```bash
 let json = {
   "Name": "Mark",
   "xing": "Galea",
@@ -80,7 +81,7 @@ let json = {
           "second-line": "Over Here",
           "city": "In This City",
           "student": {
-              name: "Ailun"
+              name1: "Ailun"
           }
       }
   ],
@@ -92,7 +93,10 @@ let json = {
           name: "Ailun"
       }
   }
+```
 
   只需使用以下代码即可映射。 该映射基于@JsonProperty装饰器元数据。
 
-  const person = MapperEntity(Person, json);
+ ```bash
+ const person = deserialize(Person, json);
+ ```
