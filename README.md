@@ -98,5 +98,5 @@ let json = {
   只需使用以下代码即可映射。 该映射基于@JsonProperty装饰器元数据。
 
  ```bash
- const person = deserialize(Person, json);
+ const person = MapperEntity(Person, json);
  ```
