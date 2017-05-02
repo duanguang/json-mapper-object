@@ -10,10 +10,13 @@
 
 ### Get Started
 
-### using
+### USING
+
+```bash
 npm install json-typescript-object --save
 or
 yarn add json-typescript-object
+```
 
 ### Example
 import {MapperEntity,JsonProperty} from 'json-mapper-object';
