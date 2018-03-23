@@ -10,9 +10,9 @@
 ### USING
 
 ```bash
-npm install json-typescript-object --save
+npm install json-mapper-object --save
 or
-yarn add json-typescript-object
+yarn add json-mapper-object
 ```
 
 ### Example
