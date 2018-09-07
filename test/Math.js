@@ -20,7 +20,26 @@ export class Address {
     constructor() {
     }
 }
+export class Person {
+    @JsonProperty('Name')
+    name=void 0;
 
+    age=void 0;
+
+    @JsonProperty('xing')
+    surname=void 0;
+
+    age=void 0;
+
+    @JsonProperty({clazz: Address, name: 'AddressArr'})
+    addressArr=void 0;
+
+    @JsonProperty({clazz: Address, name: 'Address'})
+    address=void 0;
+
+    constructor() {
+    }
+}
 export class Math {
     @JsonProperty('Name')
     name=void 0;
