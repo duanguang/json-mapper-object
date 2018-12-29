@@ -36,7 +36,7 @@ function mapFromJson(decoratorMetadata, instance, json, key) {
      * if decorator name is not found, use target property key as decorator name. It means mapping it directly
      */
     let decoratorName = decoratorMetadata.name || key;
-    let innerJson = json ? json[decoratorName] : undefined;
+    let innerJson = json ? json[decoratorName] : instance[key];
     if (innerJson !== undefined && innerJson !== null) {
         if (decoratorMetadata.clazz && innerJson.constructor === Array) {
             let metadata = getJsonProperty(instance, key);
@@ -79,10 +79,11 @@ function MapperEntity(Clazz,json) {
          * get decoratorMetaData, structure: { name?:string, clazz?:{ new():T } }
          */
         let decoratorMetaData = getJsonProperty(instance, key);
+        //console.log(decoratorMetaData)
         /**
          * pass value to instance
          */
-        instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : json[key];
+        instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : (json[key]||instance[key]);
     });
 
     return instance;
