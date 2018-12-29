@@ -55,7 +55,7 @@ function mapFromJson(decoratorMetadata, instance, json, key) {
             return MapperEntity(decoratorMetadata.clazz, innerJson);
         }
     }
-    return json ? json[decoratorName] : undefined;
+    return json ? json[decoratorName] ||instance[key]: undefined;
 }
 function MapperEntity(Clazz,json) {
     if (hasAnyNullOrUndefined(Clazz, json)) {
