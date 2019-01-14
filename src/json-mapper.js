@@ -55,7 +55,11 @@ function mapFromJson(decoratorMetadata, instance, json, key) {
             return MapperEntity(decoratorMetadata.clazz, innerJson);
         }
     }
-    return json ? json[decoratorName] ||instance[key]: undefined;
+    let value =json[decoratorName];
+    if(!value&&value!==0){
+        value =instance[key]
+    }
+    return json ? value: undefined;
 }
 function MapperEntity(Clazz,json) {
     if (hasAnyNullOrUndefined(Clazz, json)) {
@@ -83,7 +87,12 @@ function MapperEntity(Clazz,json) {
         /**
          * pass value to instance
          */
-        instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : (json[key]||instance[key]);
+        let value = json[key]
+        if(!value&&value!==0){
+            value = instance[key]
+        }
+        instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : value;
+       // instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : (json[key]||instance[key]);
     });
 
     return instance;
