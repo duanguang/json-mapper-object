@@ -56,9 +56,12 @@ function mapFromJson(decoratorMetadata, instance, json, key) {
         }
     }
     let value =json[decoratorName];
-    if(!value&&value!==0){
-        value =instance[key]
+    if(value===null||value===undefined){
+        value = instance[key]
     }
+    // if(!value&&value!==0){
+    //     value =instance[key]
+    // }
     return json ? value: undefined;
 }
 function MapperEntity(Clazz,json) {
@@ -88,9 +91,12 @@ function MapperEntity(Clazz,json) {
          * pass value to instance
          */
         let value = json[key]
-        if(!value&&value!==0){
+        if(value===null||value===undefined){
             value = instance[key]
         }
+        // if(!value&&value!==0){
+        //     value = instance[key]
+        // }
         instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : value;
        // instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : (json[key]||instance[key]);
     });
