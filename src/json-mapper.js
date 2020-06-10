@@ -1,5 +1,6 @@
 import {isTargetType,hasAnyNullOrUndefined} from './util';
 import 'reflect-metadata';
+const get = require('lodash/get')
 const JSON_META_DATA_KEY = 'JsonProperty';
 
 var DecoratorMetaData = (function () {
@@ -36,7 +37,7 @@ function mapFromJson(decoratorMetadata, instance, json, key) {
      * if decorator name is not found, use target property key as decorator name. It means mapping it directly
      */
     let decoratorName = decoratorMetadata.name || key;
-    let innerJson = json ? json[decoratorName] : instance[key];
+    let innerJson = json ? get(json,decoratorName) : instance[key];
     if (innerJson !== undefined && innerJson !== null) {
         if (decoratorMetadata.clazz && innerJson.constructor === Array) {
             let metadata = getJsonProperty(instance, key);
@@ -55,7 +56,7 @@ function mapFromJson(decoratorMetadata, instance, json, key) {
             return MapperEntity(decoratorMetadata.clazz, innerJson);
         }
     }
-    let value =json[decoratorName];
+    let value = get(json,decoratorName);
     if(value===null||value===undefined){
         value = instance[key]
     }
