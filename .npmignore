@@ -10,3 +10,6 @@ yarn.lock
 .eslintrc
 .babelrc
 .gitignore
+coverage
+jsconfig.json
+build.sh
