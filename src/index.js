@@ -1,1 +1,1 @@
-export {MapperEntity, JsonProperty} from './json-mapper';
+export {MapperEntity, JsonProperty,serialize} from './json-mapper';

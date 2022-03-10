@@ -13,8 +13,8 @@ export interface IGenericObject {
  * @interface
  */
 export interface ICustomConverter {
-    fromJson(data: any): any;
-    toJson(data: any): any;
+    fromJson?:(data: any,record?:any)=> any;
+    toJson?:(data: any)=> any;
 }
 /**
  * IDecoratorMetaData<T>
@@ -60,3 +60,12 @@ export declare function MapperEntity<T extends IGenericObject>(Clazz: {
  * @returns {any} an object ready to be serialized to JSON
  */
 // export declare function serialize(instance: any): any;
+
+/**
+ * Serialize: Creates a ready-for-json-serialization object from the provided model instance.
+ * Only @JsonProperty decorated properties in the model instance are processed.
+ *
+ * @param instance an instance of a model class
+ * @returns {any} an object ready to be serialized to JSON
+ */
+ export declare function serialize(instance: any): any;

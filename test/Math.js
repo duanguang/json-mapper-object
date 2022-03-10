@@ -1,7 +1,7 @@
 /*
  * @Author: duanguang
  * @Date: 2019-02-28 11:38:47
- * @LastEditTime: 2022-03-10 15:26:34
+ * @LastEditTime: 2022-03-10 17:44:43
  * @LastEditors: duanguang
  * @Description: 
  * @FilePath: /json-mapper-object/test/Math.js
@@ -39,7 +39,9 @@ export class Address1 {
     student = void 0;
     
     @JsonProperty({name:'student_1.student_2',clazz: Student})
-    students=void 0;
+    students = void 0;
+    @JsonProperty({name:'student_1.student_3',clazz: Student})
+    student3=void 0;
     city=void 0;
 }
 export class Person {

@@ -1,6 +1,7 @@
 import {isTargetType,hasAnyNullOrUndefined,isArrayOrArrayClass} from './util';
 import 'reflect-metadata';
 const get = require('lodash/get')
+const setWith = require('lodash/setWith')
 const JSON_META_DATA_KEY = 'JsonProperty';
 
 var DecoratorMetaData = (function () {
@@ -98,7 +99,7 @@ function MapperEntity(Clazz,json) {
         /**
          * pass value to instance
          */
-         if (decoratorMetaData && decoratorMetaData.customConverter) {
+         if (decoratorMetaData && decoratorMetaData.customConverter&&decoratorMetaData.customConverter.fromJson) {
             instance[key] = decoratorMetaData.customConverter.fromJson(json[decoratorMetaData.name || key],json);
          } else {
              let value = json[key]
@@ -115,6 +116,7 @@ function MapperEntity(Clazz,json) {
  * Serialize: Creates a ready-for-json-serialization object from the provided model instance.
  * Only @JsonProperty decorated properties in the model instance are processed.
  *
+ * 反序列化
  * @param instance an instance of a model class
  * @returns {any} an object ready to be serialized to JSON
  */
@@ -122,16 +124,18 @@ function serialize(instance) {
     if (!isTargetType(instance, 'object') || isArrayOrArrayClass(instance)) {
         return instance;
     }
-    const obj = {};
+    let obj = {};
     Object.keys(instance).forEach(key => {
-        const metadata = getJsonProperty(instance, key);
-        obj[metadata && metadata.name ? metadata.name : key] = serializeProperty(metadata, instance[key]);
+        const metadata = getJsonProperty(instance,key);
+        const name = metadata && metadata.name ? metadata.name : key
+        obj=  setWith(obj,name,serializeProperty(metadata, instance[key]))
+        // obj[name] = serializeProperty(metadata, instance[key]);
     });
     return obj;
 }
 /**
  * Prepare a single property to be serialized to JSON.
- *
+ * 
  * @param metadata
  * @param prop
  * @returns {any}
@@ -142,7 +146,7 @@ function serialize(instance) {
         return;
     }
 
-    if (metadata.customConverter) {
+    if (metadata.customConverter&&metadata.customConverter.toJson) {
         return metadata.customConverter.toJson(prop);
     }
 

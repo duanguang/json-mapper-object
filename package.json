@@ -11,6 +11,9 @@
     "debug": "mocha --require babel-register  --no-timeouts ./test/*.test.js",
     "prepublish": "rimraf lib && babel src --out-dir lib && bash build.sh"
   },
+  "peerDependencies": {
+    "lodash":">4.17.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-core": "^6.9.1",

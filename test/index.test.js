@@ -1,7 +1,7 @@
 /*
  * @Author: duanguang
  * @Date: 2022-03-10 11:42:25
- * @LastEditTime: 2022-03-10 15:56:54
+ * @LastEditTime: 2022-03-10 18:26:41
  * @LastEditors: duanguang
  * @Description: 
  * @FilePath: /json-mapper-object/test/index.test.js
@@ -20,8 +20,9 @@ import {
     serialize,
     JsonProperty
 } from '../src/json-mapper'
-
-
+const get = require('lodash/get')
+const setWith = require('lodash/setWith')
+import {dateConverter} from './dateconverter'
 describe('json-mapper', () => {
     it('simple json object #1', () => {
         let json = {
@@ -234,13 +235,47 @@ describe('serialize', () => {
                     "name": "John Doe1",
                     dob: "1995-12-10"
                 },
+                'student_3':{
+                    "name": "John Doe3",
+                    dob: "1995-10-10"
+                },
             },
             'first-line': '1111'
         };
         const address = MapperEntity(Address1,json);
-        console.log(address)
         const serializedInstance = serialize(address);
-        console.log(serializedInstance)
+        const student_2_name = get(serializedInstance,'student_1.student_2.name')
+        const student_3_name = get(serializedInstance,'student_1.student_3.name')
+        const test_name = get(serializedInstance,'test.name')
+        expect(serializedInstance['first-line']).toEqual('1111');
+        expect(test_name).toEqual('John Doe');
+        expect(student_2_name).toEqual('John Doe1');
+        expect(student_3_name).toEqual('John Doe3');
     });
-    
+    it('should apply serialize for all array items if clazz is specified', function () {
+        const json = {
+            test: {
+                "name": "John Doe",
+                dob: "1995-11-10",
+            },
+            'student_1': {
+                'student_2':{
+                    "name": "John Doe1",
+                    dob: "1995-12-10"
+                },
+                'student_3':[{
+                    "name": "John Doe3",
+                    dob: "1995-10-10"
+                }],
+            },
+            'first-line': '1111'
+        };
+        const address = MapperEntity(Address1,json);
+        const serializedInstance = serialize(address);
+        const student3 = get(serializedInstance,'student_1.student_3')
+         expect(student3).toBeA(Array);
+         expect(student3.length).toEqual(1);
+         expect(student3[0].dob).toEqual('some-date');
+         expect(student3[0].name).toEqual('John Doe3');
+    });
 });
