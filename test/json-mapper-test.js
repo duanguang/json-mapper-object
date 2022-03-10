@@ -1,6 +1,6 @@
 import expect from 'expect';
 import {Math,Address} from "./Math";
-import {MapperEntity} from '../src/json-mapper'
+import {MapperEntity} from '../lib/json-mapper'
 
 
 describe('json-mapper', () => {
