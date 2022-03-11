@@ -1,4 +1,8 @@
-import {isTargetType,hasAnyNullOrUndefined,isArrayOrArrayClass} from './util';
+import {
+    isTargetType,
+    hasAnyNullOrUndefined,
+    isArrayOrArrayClass
+} from './util';
 import 'reflect-metadata';
 const get = require('lodash/get')
 const setWith = require('lodash/setWith')
@@ -17,11 +21,9 @@ function JsonProperty(metadata) {
     let decoratorMetaData;
     if (isTargetType(metadata, 'string')) {
         decoratorMetaData = new DecoratorMetaData(metadata);
-    }
-    else if (isTargetType(metadata, 'object')) {
+    } else if (isTargetType(metadata, 'object')) {
         decoratorMetaData = metadata;
-    }
-    else {
+    } else {
         throw new Error('meta data in Json property is undefined. meta data: ' + metadata);
     }
     return Reflect.metadata(JSON_META_DATA_KEY, decoratorMetaData);
@@ -32,12 +34,13 @@ function getJsonProperty(target, propertyKey) {
     return Reflect.getMetadata(JSON_META_DATA_KEY, target, propertyKey);
 
 }
+
 function mapFromJson(decoratorMetadata, instance, json, key) {
     /**
      * if decorator name is not found, use target property key as decorator name. It means mapping it directly
      */
     let decoratorName = decoratorMetadata.name || key;
-    let innerJson = json ? get(json,decoratorName) : instance[key];
+    let innerJson = json ? get(json, decoratorName) : instance[key];
     if (innerJson !== undefined && innerJson !== null) {
         if (decoratorMetadata.clazz && innerJson.constructor === Array) {
             let metadata = getJsonProperty(instance, key);
@@ -59,21 +62,22 @@ function mapFromJson(decoratorMetadata, instance, json, key) {
             return MapperEntity(decoratorMetadata.clazz, {});
         }
     }
-    let value = get(json,decoratorName);
+    let value = get(json, decoratorName);
     if (value === null || value === undefined) {
         if (decoratorMetadata.clazz && typeof json === 'object') {
-            value = MapperEntity(decoratorMetadata.clazz,json);
+            value = MapperEntity(decoratorMetadata.clazz, json);
         } else {
             value = instance[key]
         }
-        
+
     }
     // if(!value&&value!==0){
     //     value =instance[key]
     // }
-    return json ? value: undefined;
+    return json ? value : undefined;
 }
-function MapperEntity(Clazz,json) {
+
+function MapperEntity(Clazz, json) {
     if (hasAnyNullOrUndefined(Clazz, json)) {
         return void 0;
     }
@@ -99,11 +103,11 @@ function MapperEntity(Clazz,json) {
         /**
          * pass value to instance
          */
-         if (decoratorMetaData && decoratorMetaData.customConverter&&decoratorMetaData.customConverter.fromJson) {
-            instance[key] = decoratorMetaData.customConverter.fromJson(json[decoratorMetaData.name || key],json);
-         } else {
-             let value = json[key]
-             if (value === null || value === undefined) {
+        if (decoratorMetaData && decoratorMetaData.customConverter && decoratorMetaData.customConverter.fromJson) {
+            instance[key] = decoratorMetaData.customConverter.fromJson(json[decoratorMetaData.name || key], json);
+        } else {
+            let value = json[key]
+            if (value === null || value === undefined) {
                 value = instance[key]
             }
             instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : json[key];
@@ -126,10 +130,13 @@ function serialize(instance) {
     }
     let obj = {};
     Object.keys(instance).forEach(key => {
-        const metadata = getJsonProperty(instance,key);
-        const name = metadata && metadata.name ? metadata.name : key
-        obj=  setWith(obj,name,serializeProperty(metadata, instance[key]))
-        // obj[name] = serializeProperty(metadata, instance[key]);
+        const metadata = getJsonProperty(instance, key);
+        if (metadata && !metadata.name && metadata.clazz) {
+            obj = Object.assign(obj,serializeProperty(metadata, instance[key]))
+        } else {
+            const name = metadata && metadata.name ? metadata.name : key
+            obj = setWith(obj, name, serializeProperty(metadata, instance[key]))
+        }
     });
     return obj;
 }
@@ -140,13 +147,13 @@ function serialize(instance) {
  * @param prop
  * @returns {any}
  */
- function serializeProperty(metadata, prop) {
+function serializeProperty(metadata, prop) {
 
     if (!metadata || metadata.excludeToJson === true) {
         return;
     }
 
-    if (metadata.customConverter&&metadata.customConverter.toJson) {
+    if (metadata.customConverter && metadata.customConverter.toJson) {
         return metadata.customConverter.toJson(prop);
     }
 
@@ -160,7 +167,7 @@ function serialize(instance) {
 
     return serialize(prop);
 }
-module.exports={
+module.exports = {
     MapperEntity,
     JsonProperty,
     serialize

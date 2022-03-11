@@ -1,7 +1,7 @@
 /*
  * @Author: duanguang
  * @Date: 2022-03-10 11:42:25
- * @LastEditTime: 2022-03-10 18:26:41
+ * @LastEditTime: 2022-03-11 10:52:50
  * @LastEditors: duanguang
  * @Description: 
  * @FilePath: /json-mapper-object/test/index.test.js
@@ -13,7 +13,8 @@ import {
     Address,
     Person,
     Student,
-    Address1
+    Address1,
+    Select
 } from "./Math";
 import {
     MapperEntity,
@@ -214,7 +215,7 @@ describe('json-mapper', () => {
 });
 
 describe('serialize', () => {
-    it('should use the property name given in the meta data', function () {
+    it('should use the property name given in the meta data#1', function () {
         class ClassWithPrimitiveProp {
             @JsonProperty('theName')
             name = undefined;
@@ -224,7 +225,7 @@ describe('serialize', () => {
         const serializedInstance = serialize(instance);
         expect(serializedInstance.theName).toEqual('Jim');
     });
-    it('should use the property name given in the meta data', function () {
+    it('should use the property name given in the meta data#2', function () {
         const json = {
             test: {
                 "name": "John Doe",
@@ -251,6 +252,21 @@ describe('serialize', () => {
         expect(test_name).toEqual('John Doe');
         expect(student_2_name).toEqual('John Doe1');
         expect(student_3_name).toEqual('John Doe3');
+    });
+    it('should use the property name given in the meta data#3', function () {
+        const json = {
+            "name": "John Doe",
+            dob: "1995-11-10",
+            'multiple': [{
+                "name": "John Doe1",
+                dob: "1995-12-10"
+            }],
+        };
+        let selects = MapperEntity(Select,json);
+        selects.select.title =''
+        const serializedInstance = serialize(selects);
+        expect(serializedInstance.multiple).toBeA(Array);
+        expect(serializedInstance.name).toEqual('John Doe');
     });
     it('should apply serialize for all array items if clazz is specified', function () {
         const json = {

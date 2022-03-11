@@ -1,7 +1,7 @@
 /*
  * @Author: duanguang
  * @Date: 2019-02-28 11:38:47
- * @LastEditTime: 2022-03-10 17:44:43
+ * @LastEditTime: 2022-03-11 10:38:07
  * @LastEditors: duanguang
  * @Description: 
  * @FilePath: /json-mapper-object/test/Math.js
@@ -16,6 +16,20 @@ export class Student {
     @JsonProperty({name: 'dob', customConverter: dateConverter})
     dateOfBirth = undefined;
 }
+class SelectLabelInValue {
+    @JsonProperty('name')
+    key=void 0;
+
+    @JsonProperty('dob')
+    label = undefined;
+}
+export class Select{
+    @JsonProperty({clazz: SelectLabelInValue})
+    select = void 0;
+    
+    @JsonProperty({name:'multiple',clazz: SelectLabelInValue})
+    select_multiple =void 0
+}
 export class Address {
     @JsonProperty('first-line')
     firstLine=void 0;
@@ -23,6 +37,8 @@ export class Address {
     secondLine=void 0;
     @JsonProperty({clazz: Student})
     student = void 0;
+
+   
     
     @JsonProperty({name:'student_1',clazz: Student})
     students=void 0;
