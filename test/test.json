@@ -1,0 +1,41 @@
+{
+    "msg": "操作成功",
+    "code": 200,
+    "data": [
+        {
+            "name": "System",
+            "menuId": "1",
+            "deep": [
+                "1"
+            ],
+            "path": "/system",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "系统管理",
+                "icon": "system",
+                "noCache": false
+            },
+            "children": [
+                {
+                    "name": "User",
+                    "menuId": "100",
+                    "deep": [
+                        "1",
+                        "100"
+                    ],
+                    "path": "user",
+                    "hidden": false,
+                    "component": "system/user/index",
+                    "meta": {
+                        "title": "用户管理",
+                        "icon": "user",
+                        "noCache": false
+                    }
+                }
+            ]
+        }
+    ]
+}

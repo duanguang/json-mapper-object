@@ -1,7 +1,7 @@
 /*
  * @Author: duanguang
  * @Date: 2019-02-28 11:38:47
- * @LastEditTime: 2022-03-11 10:38:07
+ * @LastEditTime: 2022-03-11 13:32:12
  * @LastEditors: duanguang
  * @Description: 
  * @FilePath: /json-mapper-object/test/Math.js
@@ -28,7 +28,9 @@ export class Select{
     select = void 0;
     
     @JsonProperty({name:'multiple',clazz: SelectLabelInValue})
-    select_multiple =void 0
+    select_multiple = void 0
+    
+    rangeDate =[]
 }
 export class Address {
     @JsonProperty('first-line')
