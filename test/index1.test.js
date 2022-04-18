@@ -1,10 +1,10 @@
 /*
  * @Author: duanguang
  * @Date: 2022-03-10 11:42:25
- * @LastEditTime: 2022-04-07 10:59:32
+ * @LastEditTime: 2022-04-18 15:50:50
  * @LastEditors: duanguang
  * @Description:
- * @FilePath: /json-mapper-object/test/index.spec.js
+ * @FilePath: /json-mapper-object/test/index1.test.js
  * 「扫去窗上的尘埃，才可以看到窗外的美景。」
  */
 import expect from 'expect';
@@ -64,6 +64,5 @@ class MenuListEntity {
 describe('json-mapper', () => {
   it('simple json object #1', () => {
     const person = new MenuListContainerEntity(data);
-    console.log(person.data[0].children,person)
   });
 });

@@ -1,0 +1,3183 @@
+{
+  "msg": "获取成功",
+  "ok": true,
+  "status": null,
+  "data": [
+    {
+      "key": "WB000",
+      "title": "工作台",
+      "content": null,
+      "path": "/scm-static/scm/#/workbench",
+      "closable": null,
+      "child": null,
+      "deep": ["WB000"],
+      "iconurl": "/assets/icon/gzt.png",
+      "templateType": ""
+    },
+    {
+      "key": "0033",
+      "title": "金关手(帐)册",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "00330001",
+          "title": "单据管理",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00330002",
+              "title": "进出口计划单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/EntBill/list?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330002"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330003",
+              "title": "核注清单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/Invt/Index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330003"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330004",
+              "title": "报关单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/declaration/listall?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330004"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330051",
+              "title": "进口计划单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/EntBill/list?ImpexpMarkcd=I&_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330051"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330052",
+              "title": "出口计划单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/EntBill/list?ImpexpMarkcd=E&_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330052"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330053",
+              "title": "进口核注清单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/Invt/Index?ImpexpMarkcd=I&_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330053"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330054",
+              "title": "出口核注清单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/Invt/Index?ImpexpMarkcd=E&_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330054"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330055",
+              "title": "进口报关单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/declaration/listall?ImpexpMarkcd=I&_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330055"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330056",
+              "title": "出口报关单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/declaration/listall?ImpexpMarkcd=E&_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330056"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330028",
+              "title": "进口计划单",
+              "content": null,
+              "path": "/scm-static/scm/#/importPlannedOrder",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330028"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330029",
+              "title": "出口计划单",
+              "content": null,
+              "path": "/scm-static/scm/#/exportPlannedOrder",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330029"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330036",
+              "title": "进口核注单",
+              "content": null,
+              "path": "/scm-static/scm/#/importCheckList",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330036"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330037",
+              "title": "出口核注单",
+              "content": null,
+              "path": "/scm-static/scm/#/exportCheckList",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330037"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330049",
+              "title": "库存核算单",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/WhStock/Index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330001", "00330049"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0033", "00330001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00330005",
+          "title": "加贸管理",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00330006",
+              "title": "加贸手册备案",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/Npts/Index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330005", "00330006"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330007",
+              "title": "加贸手册报核",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/NptsDcr/Index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330005", "00330007"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330008",
+              "title": "企业资质备案",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/NEmsTr/Index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330005", "00330008"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330009",
+              "title": "加贸帐册备案",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/NEms/Index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330005", "00330009"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330010",
+              "title": "加贸帐册报核",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cus/NEmsDcr/Index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330005", "00330010"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330026",
+              "title": "货物申报表",
+              "content": null,
+              "path": "/processingTrade/manual/RotateApplyData.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330005", "00330026"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330027",
+              "title": "货物收发货单",
+              "content": null,
+              "path": "/processingTrade/manual/RotateBill.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330005", "00330027"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0033", "00330005"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00330011",
+          "title": "原产地证管理",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00330012",
+              "title": "原产地证",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cpt/codocument/listall?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330011", "00330012"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330013",
+              "title": "商品备案",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cpt/CustCommodity/Index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330011", "00330013"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0033", "00330011"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00330014",
+          "title": "报表中心",
+          "content": null,
+          "path": "/citreport/list.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0033", "00330014"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00330015",
+          "title": "基础资料",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00330031",
+              "title": "报关商品",
+              "content": null,
+              "path": "/scm-static/scm/#/customsCommodity",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330015", "00330031"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330030",
+              "title": "物料信息",
+              "content": null,
+              "path": "/scm-static/scm/#/material",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330015", "00330030"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330016",
+              "title": "物料信息",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/commodity/ItemMaster/list?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330015", "00330016"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330017",
+              "title": "企业BOM",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/commodity/ErpBom/List?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330015", "00330017"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330018",
+              "title": "加贸报关商品",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/commodity/basic/list?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330015", "00330018"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330019",
+              "title": "收发货人",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/commodity/BasePartner/list?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330015", "00330019"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330020",
+              "title": "手签员",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/cpt/CompApplicantSign/index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330015", "00330020"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0033", "00330015"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00330021",
+          "title": "系统管理",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00330022",
+              "title": "公司信息",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/companymanage/index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330021", "00330022"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330023",
+              "title": "预设值",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/SysDocsDefault/index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330021", "00330023"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330024",
+              "title": "基础编码",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/commodity/SysParam/List?type=1&_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330021", "00330024"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330025",
+              "title": "系统选项",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/SystemOption/Index?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330021", "00330025"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330032",
+              "title": "基础参数设置",
+              "content": null,
+              "path": "/scm-static/scm/#/paramsSetting/planParams",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330021", "00330032"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330034",
+              "title": "核注清单预设值",
+              "content": null,
+              "path": "/scm-static/scm/#/checklistDefaults",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330021", "00330034"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330035",
+              "title": "监管方式归类",
+              "content": null,
+              "path": "/scm-static/scm/#/tradeClassification",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330021", "00330035"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330048",
+              "title": "加贸日志",
+              "content": null,
+              "path": "https://uat-hoolinks.chinaitrade.com/account/sso?username=Test4003&token=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl&returnUrl=/OperationLogManage/list?_sec=1",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330021", "00330048"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0033", "00330021"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00330033",
+          "title": "定制导入",
+          "content": null,
+          "path": "/scm-static/scm/#/customImport",
+          "closable": null,
+          "child": [],
+          "deep": ["0033", "00330033"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00330038",
+          "title": "定制报表",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00330039",
+              "title": "企业Bom报表",
+              "content": null,
+              "path": "/scm-static/scm/#/CompanyBomReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330039"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330040",
+              "title": "账册Bom报表",
+              "content": null,
+              "path": "/scm-static/scm/#/accountBomStatement",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330040"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330041",
+              "title": "核注清单料件进出口明细表",
+              "content": null,
+              "path": "/scm-static/scm/#/checklistMaterialIEDetail",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330041"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330042",
+              "title": "核注清单成品进出口明细表",
+              "content": null,
+              "path": "/scm-static/scm/#/checklistProductIEDetail",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330042"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330043",
+              "title": "成品耗用料件预算表",
+              "content": null,
+              "path": "/scm-static/scm/#/productConsumBudget",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330043"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330044",
+              "title": "计划单/核注清单",
+              "content": null,
+              "path": "/scm-static/scm/#/scheduleReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330044"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330045",
+              "title": "成品耗用料件状况表(料号级)",
+              "content": null,
+              "path": "/scm-static/scm/#/productLossStatusReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330045"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330046",
+              "title": "料件耗用成品状况表(料号级)",
+              "content": null,
+              "path": "/scm-static/scm/#/materialLossStatusReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330046"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330047",
+              "title": "料件损耗汇总表",
+              "content": null,
+              "path": "/scm-static/scm/#/materialLossAllReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330047"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330057",
+              "title": "报关单异常明细表",
+              "content": null,
+              "path": "/scm-static/scm/#/customReports/customsList",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330057"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330058",
+              "title": "核注清单异常明细表1",
+              "content": null,
+              "path": "/scm-static/scm/#/customReports/checkList",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330058"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330059",
+              "title": "核注清单异常明细表2",
+              "content": null,
+              "path": "/scm-static/scm/#/customReports/checkList2",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330059"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330060",
+              "title": "计划单异常明细表",
+              "content": null,
+              "path": "/scm-static/scm/#/customReports/originalPlanList",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330060"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00330061",
+              "title": "不作价执行情况表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/noPricePermance",
+              "closable": null,
+              "child": null,
+              "deep": ["0033", "00330038", "00330061"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0033", "00330038"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["0033"],
+      "iconurl": "/assets/icon/jgsc.png",
+      "templateType": null
+    },
+    {
+      "key": "3306",
+      "title": "进出货管理",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "33060001",
+          "title": "出货计划",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/stockOutPlan",
+          "closable": null,
+          "child": [],
+          "deep": ["3306", "33060001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060002",
+          "title": "送货订单",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/deliveryGoods",
+          "closable": null,
+          "child": [],
+          "deep": ["3306", "33060002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060003",
+          "title": "自建车队管理",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/fleetManage",
+          "closable": null,
+          "child": [],
+          "deep": ["3306", "33060003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060005",
+          "title": "报表中心",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "33060006",
+              "title": "出货计划报表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/shipmentReport",
+              "closable": null,
+              "child": null,
+              "deep": ["3306", "33060005", "33060006"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "33060007",
+              "title": "送货订单报表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/deliveryReport",
+              "closable": null,
+              "child": null,
+              "deep": ["3306", "33060005", "33060007"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "33060008",
+              "title": "仓库预约报表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/warehouseReport",
+              "closable": null,
+              "child": null,
+              "deep": ["3306", "33060005", "33060008"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "33060009",
+              "title": "物料明细报表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/materialReport",
+              "closable": null,
+              "child": null,
+              "deep": ["3306", "33060005", "33060009"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["3306", "33060005"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060010",
+          "title": "出口货物清单",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/exportGoodsList",
+          "closable": null,
+          "child": [],
+          "deep": ["3306", "33060010"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060011",
+          "title": "进货计划",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/purchasePlan",
+          "closable": null,
+          "child": [],
+          "deep": ["3306", "33060011"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060012",
+          "title": "进货清单",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/purchaseList",
+          "closable": null,
+          "child": [],
+          "deep": ["3306", "33060012"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060013",
+          "title": "出货清单",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/stockOutList",
+          "closable": null,
+          "child": [],
+          "deep": ["3306", "33060013"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060015",
+          "title": "进口货物清单",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/importGoodsList",
+          "closable": null,
+          "child": [],
+          "deep": ["3306", "33060015"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060014",
+          "title": "提货订单",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/PickOrderList",
+          "closable": null,
+          "child": [],
+          "deep": ["3306", "33060014"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["3306"],
+      "iconurl": "/assets/icon/chgl.png",
+      "templateType": null
+    },
+    {
+      "key": "3341",
+      "title": "供应链管理",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "33410001",
+          "title": "销售订单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#saleOrder",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410009",
+          "title": "采购订单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/purchaseOrder",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410009"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410008",
+          "title": "进货订单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/purchaseGoods",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410008"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410004",
+          "title": "出货订单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/deliveryGoods",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410004"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410013",
+          "title": "销售采购订单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/inAndOutOrder",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410013"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410010",
+          "title": "调拨订单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/transferOrder",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410010"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410002",
+          "title": "出货计划",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/stockOutPlan",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410003",
+          "title": "出货清单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/stockOutList",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410006",
+          "title": "进货计划",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/purchasePlan",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410006"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410007",
+          "title": "进货清单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/purchaseList",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410007"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410005",
+          "title": "库存管理",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/inventoryList",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410005"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410011",
+          "title": "定制报表中心",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "33410012",
+              "title": "进出仓报表",
+              "content": null,
+              "path": "/scm-static/spo/scm-spo/#/warehouseReportList",
+              "closable": null,
+              "child": null,
+              "deep": ["3341", "33410011", "33410012"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "33410015",
+              "title": "预警类报表",
+              "content": null,
+              "path": "/scm-static/spo/scm-spo/#/earlyWarningReport",
+              "closable": null,
+              "child": null,
+              "deep": ["3341", "33410011", "33410015"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["3341", "33410011"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410016",
+          "title": "报关订单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/customsOrderList",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410016"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33410014",
+          "title": "退货需求单",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/returnOrder",
+          "closable": null,
+          "child": [],
+          "deep": ["3341", "33410014"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["3341"],
+      "iconurl": "/assets/icon/chgl.png",
+      "templateType": null
+    },
+    {
+      "key": "0004",
+      "title": "物流协同",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "00040001",
+          "title": "快速下单",
+          "content": null,
+          "path": "/order/toAddOrder.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0004", "00040001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00040002",
+          "title": "进口订单",
+          "content": null,
+          "path": "/order/toImportPage.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0004", "00040002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00040003",
+          "title": "出口订单",
+          "content": null,
+          "path": "/order/toExportPage.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0004", "00040003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00040020",
+          "title": "物流清单",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/logisticsList",
+          "closable": null,
+          "child": [],
+          "deep": ["0004", "00040020"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00040004",
+          "title": "自定义流程",
+          "content": null,
+          "path": "/admin/boss/forward.html?requestUrl=https://uat-lcm.hoolinks.com/cp/systemOpenPage?urlCode=000002",
+          "closable": null,
+          "child": [],
+          "deep": ["0004", "00040004"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00040005",
+          "title": "出口货物跟踪",
+          "content": null,
+          "path": "/order/toExportSrPage.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0004", "00040005"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00040006",
+          "title": "供应商管理",
+          "content": null,
+          "path": "/company/toList.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0004", "00040006"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00040008",
+          "title": "GPS查询",
+          "content": null,
+          "path": "/vehicleGpsInfo/toVehicleGpsInfo.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0004", "00040008"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00040009",
+          "title": "报表中心",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00040010",
+              "title": "进口车单",
+              "content": null,
+              "path": "/dailyReport/toImportPage.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0004", "00040009", "00040010"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00040011",
+              "title": "出口车单",
+              "content": null,
+              "path": "/dailyReport/toExportPage.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0004", "00040009", "00040011"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00040012",
+              "title": "进出口订单KPI",
+              "content": null,
+              "path": "/transportAccurateRateReport/toTransportAccurateRateReport.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0004", "00040009", "00040012"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00040014",
+              "title": "供应商注册报表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/supplieReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0004", "00040009", "00040014"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00040015",
+              "title": "出货计划报表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/shipmentReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0004", "00040009", "00040015"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00040016",
+              "title": "送货订单报表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/deliveryReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0004", "00040009", "00040016"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00040017",
+              "title": "仓库预约报表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/warehouseReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0004", "00040009", "00040017"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00040018",
+              "title": "物料明细报表",
+              "content": null,
+              "path": "/scm-static/shippingOrder/scm-shippingOrder/#/systemRepository/materialReport",
+              "closable": null,
+              "child": null,
+              "deep": ["0004", "00040009", "00040018"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0004", "00040009"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["0004"],
+      "iconurl": "/assets/icon/wlxt.png",
+      "templateType": null
+    },
+    {
+      "key": "0040",
+      "title": "预归类",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "00400001",
+          "title": "快速下单",
+          "content": null,
+          "path": "/scm-static/scm/#/preClassQuickOrder",
+          "closable": null,
+          "child": [],
+          "deep": ["0040", "00400001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00400002",
+          "title": "预归类订单",
+          "content": null,
+          "path": "/scm-static/scm/#/preClassOrder",
+          "closable": null,
+          "child": [],
+          "deep": ["0040", "00400002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00400003",
+          "title": "商品库",
+          "content": null,
+          "path": "/scm-static/scm/#/goodsLibraryClient",
+          "closable": null,
+          "child": [],
+          "deep": ["0040", "00400003"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["0040"],
+      "iconurl": "/assets/icon/ygl.png",
+      "templateType": null
+    },
+    {
+      "key": "1001",
+      "title": "主数据管理",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "10010001",
+          "title": "物料管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/materialManage/materialManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1001", "10010001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10010002",
+          "title": "物料分类",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/materialManage/cateManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1001", "10010002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10010003",
+          "title": "供应商主数据",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/supplier/masterData/supplierMasterManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1001", "10010003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10010004",
+          "title": "货源清单维护",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/materialSource/materialSourceListManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1001", "10010004"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10010005",
+          "title": "采购价格管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/purchaseInfoRecord/purchaseInfoRecordManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1001", "10010005"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["1001"],
+      "iconurl": "",
+      "templateType": null
+    },
+    {
+      "key": "0023",
+      "title": "非保税贸易",
+      "content": null,
+      "path": "/general/",
+      "closable": null,
+      "child": [
+        {
+          "key": "00230085",
+          "title": "货物信息",
+          "content": null,
+          "path": "/general/essGeneralGoods/toList.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0023", "00230085"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00230088",
+          "title": "货物信息（新）",
+          "content": null,
+          "path": "/scm-static/notBondedTrade/scm-notBondedTrade/#/bt/goodsInfo",
+          "closable": null,
+          "child": [],
+          "deep": ["0023", "00230088"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00230020",
+          "title": "基础资料",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00230001",
+              "title": "报关单预设",
+              "content": null,
+              "path": "/general/essGeneralHeadSetting/toList.do",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230020", "00230001"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230002",
+              "title": "报关单参数",
+              "content": null,
+              "path": "/admin/basic/UintDecimal/General.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230020", "00230002"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230003",
+              "title": "单证模板管理",
+              "content": null,
+              "path": "/general/essGeneralReportTemplate/toList.do",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230020", "00230003"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230086",
+              "title": "申请单栏扩展",
+              "content": null,
+              "path": "/general/basicExtends/toList.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230020", "00230086"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230087",
+              "title": "导入配置",
+              "content": null,
+              "path": "/general/essGeneralImportConfig/toList.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230020", "00230087"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0023", "00230020"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00230023",
+          "title": "进口申请单",
+          "content": null,
+          "path": "/general/essGeneralPlication/I/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0023", "00230023"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00230024",
+          "title": "出口申请单",
+          "content": null,
+          "path": "/general/essGeneralPlication/E/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0023", "00230024"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00230059",
+          "title": "进口报关单",
+          "content": null,
+          "path": "/general/essGeneralBill/i/list.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0023", "00230059"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00230060",
+          "title": "出口报关单",
+          "content": null,
+          "path": "/general/essGeneralBill/e/list.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0023", "00230060"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00230089",
+          "title": "进口申请单（新）",
+          "content": null,
+          "path": "/scm-static/notBondedTrade/scm-notBondedTrade/#/bt/importApplicationForm",
+          "closable": null,
+          "child": [],
+          "deep": ["0023", "00230089"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00230090",
+          "title": "出口申请单（新）",
+          "content": null,
+          "path": "/scm-static/notBondedTrade/scm-notBondedTrade/#/bt/exportApplicationform",
+          "closable": null,
+          "child": [],
+          "deep": ["0023", "00230090"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00230040",
+          "title": "报表中心",
+          "content": null,
+          "path": "/#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00230041",
+              "title": "报关明细记录",
+              "content": null,
+              "path": "/scm-static/notBondedTrade/scm-notBondedTrade/#/importRecord",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230040", "00230041"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230043",
+              "title": "申请单记录",
+              "content": null,
+              "path": "/scm-static/notBondedTrade/scm-notBondedTrade/#/applyRecord",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230040", "00230043"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230044",
+              "title": "报关金额分析",
+              "content": null,
+              "path": "/general/billDeclareAmount/toList.do",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230040", "00230044"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230045",
+              "title": "报关单票分析",
+              "content": null,
+              "path": "/general/billDeclareTicket/toList.do",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230040", "00230045"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230046",
+              "title": "集装箱量分析",
+              "content": null,
+              "path": "/general/billDeclarePackage/toList.do",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230040", "00230046"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230047",
+              "title": "装箱单记录",
+              "content": null,
+              "path": "/scm-static/notBondedTrade/scm-notBondedTrade/#/encasementRecord",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230040", "00230047"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00230048",
+              "title": "报关单记录",
+              "content": null,
+              "path": "/scm-static/notBondedTrade/scm-notBondedTrade/#/customsRecord",
+              "closable": null,
+              "child": null,
+              "deep": ["0023", "00230040", "00230048"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0023", "00230040"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["0023"],
+      "iconurl": "/assets/icon/ybmy.png",
+      "templateType": null
+    },
+    {
+      "key": "1002",
+      "title": "供应商准入",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "10020001",
+          "title": "邀请码管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/systemset/registercode/registerCodeManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1002", "10020001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10020002",
+          "title": "供应商资质准入",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/supplierManage/supplieraccess/purchase/purchaseAccessManagement.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1002", "10020002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10020003",
+          "title": "供应商样品准入",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/sample/purchase/purchaseSampleManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1002", "10020003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10020004",
+          "title": "供应商准入管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/supplierManage/supplieraccess/purchase/supplierAccessOrganization.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1002", "10020004"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["1002"],
+      "iconurl": "",
+      "templateType": null
+    },
+    {
+      "key": "3307",
+      "title": "关务协同",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "33070001",
+          "title": "原始计划单",
+          "content": null,
+          "path": "/scm-static/customBusiness-static/customBusiness-synergy/#/originalPlan",
+          "closable": null,
+          "child": [],
+          "deep": ["3307", "33070001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33070002",
+          "title": "参数设置",
+          "content": null,
+          "path": "/scm-static/customBusiness-static/customBusiness-synergy/#/paramsSetting",
+          "closable": null,
+          "child": [],
+          "deep": ["3307", "33070002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33070003",
+          "title": "报关缴付设置",
+          "content": null,
+          "path": "/scm-static/customBusiness-static/customBusiness-synergy/#/paymentSetting",
+          "closable": null,
+          "child": [],
+          "deep": ["3307", "33070003"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["3307"],
+      "iconurl": "/assets/icon/gwxt.png",
+      "templateType": null
+    },
+    {
+      "key": "1003",
+      "title": "供应商管理",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "10030001",
+          "title": "发送公告管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/notice/noticeManage4.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1003", "10030001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10030002",
+          "title": "陌生供应商",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/supplier/masterData/supplierMasterManage.jsp?firstType=unfamiliarSupplier",
+          "closable": null,
+          "child": [],
+          "deep": ["1003", "10030002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10030003",
+          "title": "潜在供应商",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/supplier/masterData/supplierMasterManage.jsp?firstType=potentialSupplier",
+          "closable": null,
+          "child": [],
+          "deep": ["1003", "10030003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10030004",
+          "title": "合格供应商",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/supplier/masterData/supplierMasterManage.jsp?firstType=supplier",
+          "closable": null,
+          "child": [],
+          "deep": ["1003", "10030004"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10030005",
+          "title": "合作供应商",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/supplier/masterData/supplierMasterManage.jsp?firstType=supplier",
+          "closable": null,
+          "child": [],
+          "deep": ["1003", "10030005"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["1003"],
+      "iconurl": "",
+      "templateType": null
+    },
+    {
+      "key": "3308",
+      "title": "消息中心",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "33080001",
+          "title": "系统公告",
+          "content": null,
+          "path": "/scm-static/scm/#/messageList",
+          "closable": null,
+          "child": [],
+          "deep": ["3308", "33080001"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["3308"],
+      "iconurl": "/assets/icon/xxzx.png",
+      "templateType": null
+    },
+    {
+      "key": "0003",
+      "title": "基础设置",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "00040007",
+          "title": "地址库",
+          "content": null,
+          "path": "/address/toList.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00040007"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030001",
+          "title": "企业信息",
+          "content": null,
+          "path": "/enterprise/info/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030002",
+          "title": "供应商信息",
+          "content": null,
+          "path": "/enterprise/essSuppliers/toListinfo/1.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030003",
+          "title": "客户信息",
+          "content": null,
+          "path": "/enterprise/essSuppliers/toListinfo/0.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030004",
+          "title": "报关申报单位",
+          "content": null,
+          "path": "/enterprise/essCustomsDeclarationunit/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030004"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030005",
+          "title": "报关员",
+          "content": null,
+          "path": "/enterprise/essDeclarant/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030005"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030006",
+          "title": "货车资料",
+          "content": null,
+          "path": "/enterprise/essDriver/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030006"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030008",
+          "title": "汇率",
+          "content": null,
+          "path": "/enterprise/essExchangerate/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030008"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030009",
+          "title": "货物进度表",
+          "content": null,
+          "path": "/enterprise/essGoodsProgress/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030009"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030010",
+          "title": "商品预归类",
+          "content": null,
+          "path": "/enterprise/essGoodsClassify/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030010"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030011",
+          "title": "报关委托管理",
+          "content": null,
+          "path": "/enterprise/essDeclareEntrustmanger/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030011"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030012",
+          "title": "容器包材",
+          "content": null,
+          "path": "/enterprise/essContainerPacking/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030012"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030013",
+          "title": "企业计量单位",
+          "content": null,
+          "path": "/enterprise/essMeasureunit/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030013"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030014",
+          "title": "商品库",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/goodsManagementList",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030014"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030015",
+          "title": "出货模式设置",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/stockMode",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030015"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030016",
+          "title": "到货模式设置",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/arriveMode",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030016"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030017",
+          "title": "转换设置",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/transferSet",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030017"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030018",
+          "title": "料号转换设置",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/itemNoSet",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030018"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030103",
+          "title": "商品库龄设置",
+          "content": null,
+          "path": "/scm-static/spo/scm-spo/#/inventoryAgeManagement",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030103"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "33060004",
+          "title": "供应商管理",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/supplyOrder",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "33060004"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030100",
+          "title": "预警管理设置",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00030101",
+              "title": "预警扩展栏位设置",
+              "content": null,
+              "path": "/scm-static/scm/#/extendSetting",
+              "closable": null,
+              "child": null,
+              "deep": ["0003", "00030100", "00030101"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00030102",
+              "title": "预警管理",
+              "content": null,
+              "path": "/scm-static/scm/#/warningManagement",
+              "closable": null,
+              "child": null,
+              "deep": ["0003", "00030100", "00030102"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0003", "00030100"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00030203",
+          "title": "箱规管理",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/boxGauge",
+          "closable": null,
+          "child": [],
+          "deep": ["0003", "00030203"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["0003"],
+      "iconurl": "/assets/icon/shezhi.png",
+      "templateType": null
+    },
+    {
+      "key": "1004",
+      "title": "需求管理",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "10040001",
+          "title": "采购申请管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/purchaseRequisition/purchaseRequestManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1004", "10040001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10040002",
+          "title": "需求池",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/purchaseRequisition/purchaseRequestPoolManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1004", "10040002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10040003",
+          "title": "采购策略管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/purchaseStrategy/purchaseStrategyManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1004", "10040003"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["1004"],
+      "iconurl": "",
+      "templateType": null
+    },
+    {
+      "key": "0034",
+      "title": "数据看板",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "00340007",
+          "title": "智能采购安全库存",
+          "content": null,
+          "path": "https://bi.aliyuncs.com/token3rd/dashboard/view/pc.htm?pageId=3e3e92ce-2c65-4d63-a82a-f39a5d5e0d73&accessToken=8b27f7884025ccd308ea88c708120ea1",
+          "closable": null,
+          "child": [],
+          "deep": ["0034", "00340007"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00340008",
+          "title": "服务商物流分析",
+          "content": null,
+          "path": "https://bi.aliyuncs.com/token3rd/dashboard/view/pc.htm?pageId=f4120190-9517-449a-aef6-f233697af876&accessToken=86ac5210d5f3e590c0b2114e65c57343",
+          "closable": null,
+          "child": [],
+          "deep": ["0034", "00340008"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00340001",
+          "title": "数据大屏",
+          "content": null,
+          "path": "/dashboard/toDashboardData.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0034", "00340001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00340002",
+          "title": "Dash-Board",
+          "content": null,
+          "path": "/dashboard/toDashboardDataEnglish.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0034", "00340002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00340003",
+          "title": "进口数据大屏",
+          "content": null,
+          "path": "/scm-static/report/scm-report/#/importDashBoard",
+          "closable": null,
+          "child": [],
+          "deep": ["0034", "00340003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00340004",
+          "title": "Inbound Dashboard",
+          "content": null,
+          "path": "/scm-static/report/scm-report/#/importDashBoard/todoList",
+          "closable": null,
+          "child": [],
+          "deep": ["0034", "00340004"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00340005",
+          "title": "Inbound KPI",
+          "content": null,
+          "path": "/scm-static/report/scm-report/#/importDashBoard/kpi",
+          "closable": null,
+          "child": [],
+          "deep": ["0034", "00340005"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00340006",
+          "title": "Real Time",
+          "content": null,
+          "path": "/scm-static/report/scm-report/#/importDashBoard/realTime",
+          "closable": null,
+          "child": [],
+          "deep": ["0034", "00340006"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["0034"],
+      "iconurl": "/assets/icon/sjkb.png",
+      "templateType": null
+    },
+    {
+      "key": "1005",
+      "title": "供应商管理系统",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "10050001",
+          "title": "订单管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/ordermanage/purchaseorder/purchaseOrderBatchManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1005", "10050001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10050002",
+          "title": "采购询价管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/enquiryManageNew/purchase/purchaseEnquiryManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1005", "10050002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10050003",
+          "title": "采购招标管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/biddingManageNew/purchase/purchaseBiddingManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1005", "10050003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10050004",
+          "title": "采购管理(采购)",
+          "content": null,
+          "path": "https://cs.51qqt.com/ELSServer_TRY5/default2.jsp?employeeSsoCodeComment=TkdoJBh0_bkQv_qaQcqThw..&elsAccountComment=307000",
+          "closable": null,
+          "child": [],
+          "deep": ["1005", "10050004"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10050005",
+          "title": "采购管理(供应商)",
+          "content": null,
+          "path": "https://cs.51qqt.com/ELSServer_TRY5/default2.jsp?employeeSsoCodeComment=rYlfvoonnRSZp7be4jPKLw..&elsAccountComment=3070039",
+          "closable": null,
+          "child": [],
+          "deep": ["1005", "10050005"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["1005"],
+      "iconurl": "",
+      "templateType": null
+    },
+    {
+      "key": "0035",
+      "title": "金融结算",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "00350001",
+          "title": "贸汇通-商盟支付",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00350002",
+              "title": "注册",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/sunRateRegister",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350001", "00350002"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350003",
+              "title": "受益人维护",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/sunRateBeneficiary",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350001", "00350003"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350004",
+              "title": "报关单维护",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/sunRateCustomsManifest",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350001", "00350004"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350005",
+              "title": "购汇申请",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/sunRatePurchaseApply",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350001", "00350005"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350006",
+              "title": "购汇记录",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/sunRatePurchaseRecord",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350001", "00350006"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350007",
+              "title": "预付款管理",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/payManagement",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350001", "00350007"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0035", "00350001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00350008",
+          "title": "贸汇通-招商银行",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00350009",
+              "title": "注册",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/cmbRegister",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350008", "00350009"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350010",
+              "title": "收款人管理",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/cmbBeneficiary",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350008", "00350010"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350011",
+              "title": "报关单管理",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/cmbCustomsManifest",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350008", "00350011"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350012",
+              "title": "购汇申请",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/cmbPurchaseApply",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350008", "00350012"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350013",
+              "title": "购汇记录",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/cmbPurchaseRecord",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350008", "00350013"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0035", "00350008"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00350014",
+          "title": "贸汇通-渣打银行",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00350015",
+              "title": "注册",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/scRegister",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350014", "00350015"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350016",
+              "title": "收款人维护",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/scbBeneficiary",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350014", "00350016"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350017",
+              "title": "报关单维护",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/scCustomsManifest",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350014", "00350017"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350018",
+              "title": "购汇申请",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/scRatePurchaseApply",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350014", "00350018"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00350019",
+              "title": "我的账户",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/scbMyCount",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350014", "00350019"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0035", "00350014"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00350022",
+          "title": "关税保证保险",
+          "content": null,
+          "path": "/scm-static/findRemit-static/scm-findRemit/#/dutyInsurance",
+          "closable": null,
+          "child": [],
+          "deep": ["0035", "00350022"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00350020",
+          "title": "邀请注册",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00350021",
+              "title": "邀请链接",
+              "content": null,
+              "path": "/scm-static/findRemit-static/scm-findRemit/#/alreadyInvited",
+              "closable": null,
+              "child": null,
+              "deep": ["0035", "00350020", "00350021"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0035", "00350020"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["0035"],
+      "iconurl": "/assets/icon/jczl.png",
+      "templateType": null
+    },
+    {
+      "key": "1006",
+      "title": "合同管理",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "10060001",
+          "title": "采购合同管理",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/contractmanage/purchaseContractManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1006", "10060001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "10060002",
+          "title": "合同模板",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/contractmanage/contractTemplateManage.jsp",
+          "closable": null,
+          "child": [],
+          "deep": ["1006", "10060002"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["1006"],
+      "iconurl": "",
+      "templateType": null
+    },
+    {
+      "key": "1007",
+      "title": "工作流",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "10070001",
+          "title": "待办任务",
+          "content": null,
+          "path": "https://pms.hoolinks.com/qqt-srm/ufloweb/index.html?app=dev/js/uflo-web/todoManage.js",
+          "closable": null,
+          "child": [],
+          "deep": ["1007", "10070001"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["1007"],
+      "iconurl": "",
+      "templateType": null
+    },
+    {
+      "key": "0001",
+      "title": "用户权限",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "00010010",
+          "title": "新日志管理",
+          "content": null,
+          "path": "/scm-static/scm/#/LogManagement",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010010"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010011",
+          "title": "网站管理",
+          "content": null,
+          "path": "/scm-static/scm/#/WebURLmanagement",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010011"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010001",
+          "title": "帐号管理",
+          "content": null,
+          "path": "/auth/authuser/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010002",
+          "title": "菜单管理",
+          "content": null,
+          "path": "/auth/authmenu/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010002"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010003",
+          "title": "企业用户",
+          "content": null,
+          "path": "/auth/authuserinfo/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010003"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010004",
+          "title": "角色管理",
+          "content": null,
+          "path": "/auth/authrole/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010004"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010005",
+          "title": "资源管理",
+          "content": null,
+          "path": "/auth/authresource/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010005"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010006",
+          "title": "日志管理",
+          "content": null,
+          "path": "/auth/syslog/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010006"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010007",
+          "title": "按钮管理",
+          "content": null,
+          "path": "/auth/authbutton/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010007"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010008",
+          "title": "权限管理",
+          "content": null,
+          "path": "/auth/authority/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010008"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010009",
+          "title": "子公司设置",
+          "content": null,
+          "path": "/auth/subsidiary/toList.do",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010009"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00010032",
+          "title": "组管理",
+          "content": null,
+          "path": "/scm-static/scm/#/groupManage",
+          "closable": null,
+          "child": [],
+          "deep": ["0001", "00010032"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["0001"],
+      "iconurl": "/assets/icon/yhqx.png",
+      "templateType": null
+    },
+    {
+      "key": "0002",
+      "title": "系统参数",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "00020001",
+          "title": "海关商品编码",
+          "content": null,
+          "path": "/admin/basic/index/hsCode.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0002", "00020001"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00020100",
+          "title": "基础代码",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00020101",
+              "title": "贸易方式",
+              "content": null,
+              "path": "/admin/basic/index/Trade.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020101"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020102",
+              "title": "运输方式",
+              "content": null,
+              "path": "/admin/basic/index/Transport.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020102"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020103",
+              "title": "成交方式",
+              "content": null,
+              "path": "/admin/basic/index/DealTrade.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020103"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020104",
+              "title": "保税方式",
+              "content": null,
+              "path": "/admin/basic/index/Bonded.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020104"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020105",
+              "title": "征免方式",
+              "content": null,
+              "path": "/admin/basic/index/ExemptionTax.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020105"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020106",
+              "title": "计量单位",
+              "content": null,
+              "path": "/admin/basic/index/MeasuringUnit.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020106"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020107",
+              "title": "包装种类",
+              "content": null,
+              "path": "/admin/basic/index/PackageType.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020107"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020108",
+              "title": "加工种类",
+              "content": null,
+              "path": "/admin/basic/index/Process.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020108"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020109",
+              "title": "货币代码",
+              "content": null,
+              "path": "/admin/basic/index/Currency.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020109"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020110",
+              "title": "用途代码",
+              "content": null,
+              "path": "/admin/basic/index/Use.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020110"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020111",
+              "title": "证件代码",
+              "content": null,
+              "path": "/admin/basic/index/SuperviseCard.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020111"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020112",
+              "title": "征免性质",
+              "content": null,
+              "path": "/admin/basic/index/Exemption.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020112"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020113",
+              "title": "企业性质",
+              "content": null,
+              "path": "/admin/basic/index/EnterpriseNature.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020113"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020114",
+              "title": "结汇方式",
+              "content": null,
+              "path": "/admin/basic/index/Exchange.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020114"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020115",
+              "title": "核扣方式",
+              "content": null,
+              "path": "/admin/basic/index/Check.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020115"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020116",
+              "title": "外经贸代码",
+              "content": null,
+              "path": "/admin/basic/index/ForeignTrade.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020100", "00020116"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0002", "00020100"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00020119",
+          "title": "集装箱代码",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00020120",
+              "title": "集装箱代码",
+              "content": null,
+              "path": "/admin/basic/index/PkCode.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020119", "00020120"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020121",
+              "title": "集装箱规格",
+              "content": null,
+              "path": "/admin/basic/index/PkModel.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020119", "00020121"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020122",
+              "title": "集装箱尺寸",
+              "content": null,
+              "path": "/admin/basic/index/PkSize.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020119", "00020122"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020123",
+              "title": "集装箱托架种类",
+              "content": null,
+              "path": "/admin/basic/index/PkType.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020119", "00020123"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0002", "00020119"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00020124",
+          "title": "地区代码",
+          "content": null,
+          "path": "#",
+          "closable": null,
+          "child": [
+            {
+              "key": "00020125",
+              "title": "地区代码",
+              "content": null,
+              "path": "/admin/basic/index/AreaCode.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020124", "00020125"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020126",
+              "title": "国家地区",
+              "content": null,
+              "path": "/admin/basic/index/CountryArea.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020124", "00020126"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020127",
+              "title": "关区代码",
+              "content": null,
+              "path": "/admin/basic/index/Customs.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020124", "00020127"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020128",
+              "title": "港口航线",
+              "content": null,
+              "path": "/admin/basic/index/Route.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020124", "00020128"],
+              "iconurl": "",
+              "templateType": null
+            },
+            {
+              "key": "00020129",
+              "title": "港口码头",
+              "content": null,
+              "path": "/admin/basic/index/Port.html",
+              "closable": null,
+              "child": null,
+              "deep": ["0002", "00020124", "00020129"],
+              "iconurl": "",
+              "templateType": null
+            }
+          ],
+          "deep": ["0002", "00020124"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00020130",
+          "title": "海关注册公司",
+          "content": null,
+          "path": "/admin/basic/index/RegLtd.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0002", "00020130"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00020131",
+          "title": "贸易方式标记",
+          "content": null,
+          "path": "/admin/basic/index/MarkTrade.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0002", "00020131"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00020132",
+          "title": "繁简体对照表",
+          "content": null,
+          "path": "/admin/basic/index/Ts.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0002", "00020132"],
+          "iconurl": "",
+          "templateType": null
+        },
+        {
+          "key": "00020133",
+          "title": "申报要素查询",
+          "content": null,
+          "path": "/admin/basic/index/DeclarationElement.html",
+          "closable": null,
+          "child": [],
+          "deep": ["0002", "00020133"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["0002"],
+      "iconurl": "/assets/icon/xtcs.png",
+      "templateType": null
+    },
+    {
+      "key": "3343",
+      "title": "财务结算",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "33430001",
+          "title": "财务管理",
+          "content": null,
+          "path": "https://uat-dms.hoolinks.com/dms/auth_index?menuActive=true&hlAccessToken=MGM0MWZjYWYtMTRkMC00OTdhLThlM2UtNWM0ZjI0Y2E2ODRl",
+          "closable": null,
+          "child": [],
+          "deep": ["3343", "33430001"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["3343"],
+      "iconurl": "",
+      "templateType": null
+    },
+    {
+      "key": "3401",
+      "title": "开票管理",
+      "content": null,
+      "path": "#",
+      "closable": null,
+      "child": [
+        {
+          "key": "34010001",
+          "title": "开票单据",
+          "content": null,
+          "path": "/scm-static/shippingOrder/scm-shippingOrder/#/billDoc",
+          "closable": null,
+          "child": [],
+          "deep": ["3401", "34010001"],
+          "iconurl": "",
+          "templateType": null
+        }
+      ],
+      "deep": ["3401"],
+      "iconurl": "",
+      "templateType": null
+    }
+  ]
+}

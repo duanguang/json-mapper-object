@@ -64,16 +64,9 @@ function mapFromJson(decoratorMetadata, instance, json, key) {
     }
     let value = get(json, decoratorName);
     if (value === null || value === undefined) {
-        if (decoratorMetadata.clazz && typeof json === 'object') {
-            value = MapperEntity(decoratorMetadata.clazz, json);
-        } else {
-            value = instance[key]
-        }
+        value = instance[key]
 
     }
-    // if(!value&&value!==0){
-    //     value =instance[key]
-    // }
     return json ? value : undefined;
 }
 
@@ -110,7 +103,7 @@ function MapperEntity(Clazz, json) {
             if (value === null || value === undefined) {
                 value = instance[key]
             }
-            instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : json[key];
+            instance[key] = decoratorMetaData ? mapFromJson(decoratorMetaData, instance, json, key) : value;
         }
     });
 

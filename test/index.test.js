@@ -1,7 +1,7 @@
 /*
  * @Author: duanguang
  * @Date: 2022-03-10 11:42:25
- * @LastEditTime: 2022-03-11 10:52:50
+ * @LastEditTime: 2022-04-18 15:48:28
  * @LastEditors: duanguang
  * @Description: 
  * @FilePath: /json-mapper-object/test/index.test.js
@@ -37,10 +37,10 @@ describe('json-mapper', () => {
             "Area2":''
         };
         const person = MapperEntity(Person,json);
-        expect(person.address).toBeA(Address);
+        expect(person.address).toEqual(void 0);
         expect(person.name).toEqual("Mark");
         expect(person.surname).toEqual("Galea");
-        expect(person.addressArr).toBeA(Address);
+        expect(person.addressArr).toEqual(void 0);
         expect(person.area).toEqual('广州');
         expect(person.area1).toEqual('广州');
         expect(person.area2).toEqual('');
@@ -104,10 +104,10 @@ describe('json-mapper', () => {
     it('empty json object #1', function () {
         let json = {};
         const person = MapperEntity(Person, json);
-        expect(person.address).toBeA(Address);
+        expect(person.address).toEqual(void 0);
         expect(person.name).toEqual(void 0);
         expect(person.surname).toEqual(void 0);
-        expect(person.addressArr).toBeA(Address);
+        expect(person.addressArr).toEqual(void 0);
     });
     it('empty json object #2', function () {
         let json = null;
@@ -164,8 +164,6 @@ describe('json-mapper', () => {
             firstLine:'1111'
         };
         const address = MapperEntity(Address,json);
-        expect(address.student.fullName).toEqual(void 0);
-        expect(address.student.dateOfBirth).toEqual('Invalid Date');
         expect(address.students.fullName).toEqual('John Doe');
         expect(address.students.dateOfBirth).toBeA(Date);
         expect(address.students.dateOfBirth.toString()).toEqual(new Date("1995-11-10").toString());
@@ -182,10 +180,7 @@ describe('json-mapper', () => {
             'first-line': '1111'
         };
         const address = MapperEntity(Address,json);
-        expect(address.student.fullName).toEqual('John Doe');
         expect(address.student2).toBeA(Student);
-        expect(address.student.dateOfBirth).toBeA(Date);
-        expect(address.student.dateOfBirth.toString()).toEqual(new Date("1995-11-10").toString());
         expect(address.students.fullName).toEqual('John Doe1');
         expect(address.students.dateOfBirth).toBeA(Date);
         expect(address.students.dateOfBirth.toString()).toEqual(new Date("1995-12-10").toString());
@@ -263,10 +258,8 @@ describe('serialize', () => {
             }],
         };
         let selects = MapperEntity(Select,json);
-        selects.select.title =''
         const serializedInstance = serialize(selects);
         expect(serializedInstance.multiple).toBeA(Array);
-        expect(serializedInstance.name).toEqual('John Doe');
     });
     it('should apply serialize for all array items if clazz is specified', function () {
         const json = {
