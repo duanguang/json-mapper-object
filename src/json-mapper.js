@@ -125,10 +125,10 @@ function serialize(instance) {
     Object.keys(instance).forEach(key => {
         const metadata = getJsonProperty(instance, key);
         if (metadata && !metadata.name && metadata.clazz) {
-            obj = Object.assign(obj,serializeProperty(metadata, instance[key]))
+            obj = Object.assign(obj,serializeProperty(metadata, instance[key],instance))
         } else {
             const name = metadata && metadata.name ? metadata.name : key
-            obj = setWith(obj, name, serializeProperty(metadata, instance[key]))
+            obj = setWith(obj, name, serializeProperty(metadata, instance[key],instance))
         }
     });
     return obj;
@@ -140,14 +140,14 @@ function serialize(instance) {
  * @param prop
  * @returns {any}
  */
-function serializeProperty(metadata, prop) {
+function serializeProperty(metadata, prop,record) {
 
     if (!metadata || metadata.excludeToJson === true) {
         return;
     }
 
     if (metadata.customConverter && metadata.customConverter.toJson) {
-        return metadata.customConverter.toJson(prop);
+        return metadata.customConverter.toJson(prop,record);
     }
 
     if (!metadata.clazz) {

@@ -13,8 +13,20 @@ export interface IGenericObject {
  * @interface
  */
 export interface ICustomConverter {
-    fromJson?:(data: any,record?:any)=> any;
-    toJson?:(data: any)=> any;
+    /**
+     * 接口数据转成表单数据-序列化
+     * @param data 当前属性数据
+     * @param record 当前对象
+     * @returns 
+     */
+    fromJson?: (data: any,record?: any) => any;
+    /**
+     * 表单数据转成接口数据-反序列化
+     * @param data 当前属性数据
+     * @param record 当前对象
+     * @returns 
+    */
+    toJson?:(data: any,record?:any)=> any;
 }
 /**
  * IDecoratorMetaData<T>
