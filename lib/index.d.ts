@@ -13,7 +13,7 @@ export interface IGenericObject {
  * @interface
  */
 export interface ICustomConverter {
-    /**
+        /**
      * 接口数据转成表单数据-序列化
      * @param data 当前属性数据
      * @param record 当前对象
@@ -27,6 +27,7 @@ export interface ICustomConverter {
      * @returns 
     */
     toJson?:(data: any,record?:any)=> any;
+
 }
 /**
  * IDecoratorMetaData<T>
